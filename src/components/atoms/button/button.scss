@@ -1,0 +1,30 @@
+.button
+{
+    
+    border-radius: 6px;
+    border: 0;
+
+    &--primary{
+        background-color: #5458e4;        
+        color: #FFF;
+        
+    }
+
+    &--small{
+        padding: 12px 18px;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    &--glowing{
+        box-shadow: 0 0px 15px #5458e4;
+    }
+
+    &--big{
+        width: 240px;
+        padding: 18px;
+        font-size: 18px;
+        font-weight: 800;
+        box-shadow: 0 0px 15px #5458e4;
+    }
+}
